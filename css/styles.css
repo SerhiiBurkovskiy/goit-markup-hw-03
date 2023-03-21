@@ -175,6 +175,8 @@ h1 {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--primarri-text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .List-vacancies {
   font-weight: 400;
@@ -182,9 +184,17 @@ h1 {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color:  var(--secondary-text-color);;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.photo-worker{
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 .team {
   background: #f5f4fa;
+  margin-top: 0;
+  margin-bottom: 94px;
 }
 
 /* Адрес підвал */
@@ -195,6 +205,8 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
 /* Контакти підвал */

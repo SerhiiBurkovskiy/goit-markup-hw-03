@@ -128,12 +128,18 @@ h1 {
 }
 
 /* Особливості */
+.features{
+  margin-top: 94px;
+  margin-bottom: 118px;
+}
 .list-subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--primarri-text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .list-text-subtitle {
@@ -142,6 +148,8 @@ h1 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color:  var(--secondary-text-color);;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Список зоголовків */
@@ -152,6 +160,12 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primarri-text-color);
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.naked-work{
+  margin-top: 0;
+  margin-bottom: 94px;
 }
 /* Список працівників */
 

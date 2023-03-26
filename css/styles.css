@@ -10,6 +10,9 @@ body {
 ul {
   list-style: none;
 }
+header {
+  border-bottom: 1px;
+}
 
 /* Контейнер */
 .container {
@@ -44,14 +47,20 @@ ul {
   color: var(--accent-color);
   text-decoration: none;
   padding-top: 60px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   display: block;
-  padding-left: 215px;
+  padding-left: auto;
 }
 .logo-footer-studio {
   color: #ffffff;
 }
 /* Навігація сайту */
+.display{
+  display: flex;
+  padding: auto;
+  margin: auto;
+  align-items: center;
+}
 
 .list-heder {
   padding: 0;
@@ -137,7 +146,6 @@ h1 {
   padding: 0;
   margin: auto;
   width: 696px;
-  padding-top: 200px;
 }
 
 .hero {
@@ -146,7 +154,8 @@ h1 {
   margin: auto;
   text-align: center;
   width: 1600px;
-  height: 600px;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .button-hero {
@@ -170,11 +179,17 @@ h1 {
 
 .list-aspects {
   display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.list-aspects .list {
+  width: 270px;
 }
 
 .features {
-  margin-top: 94px;
-  margin-bottom: 118px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .list-subtitle {
   font-weight: 700;
@@ -209,19 +224,27 @@ h1 {
 }
 .naked-work {
   margin-top: 0;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .list-img-work {
   display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 .list-img-work .img + .img {
   margin-left: 30px;
+}
+.photo-work {
+  display: block;
 }
 /* Список працівників */
 
 .list-worker-container {
   display: flex;
-  width: 1170px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 
 .list-worker-container .list + .list {
@@ -248,14 +271,19 @@ h1 {
 }
 .photo-worker {
   margin-top: 0;
-  margin-bottom: 30px;
+  display: block;
 }
 .team {
   background: #f5f4fa;
   margin-top: 0;
   margin-bottom: 94px;
-  width: 1600px;
-  height: 648px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.team-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 /* Адрес підвал */
@@ -268,7 +296,7 @@ h1 {
   color: #ffffff;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 215px;
+  /* padding-left: 215px; */
 }
 .list-adres {
   padding-top: 9px;
@@ -285,8 +313,12 @@ h1 {
 }
 .background {
   background: var(--primarri-text-color);
-  width: 1600px;
-  height: 252px;
+  margin: 0;
+  padding: 0;
+}
+.list-contacts-footer {
+  margin: 0;
+  padding: 0;
 }
 
 /* Портфоліо */
@@ -301,6 +333,7 @@ h1 {
 .list-item-projects-portfolio {
   display: flex;
   margin-left: 297px;
+  padding-bottom: 30px;
 }
 .list-item-projects-portfolio .list + .list {
   margin-left: 8px;
@@ -343,6 +376,13 @@ h1 {
 }
 
 /* Список проектів */
+.baner-projects{
+  padding-top: 20px ;
+  padding-bottom: 20px ;
+  
+
+}
+
 .list-projects {
   display: flex;
   flex-wrap: wrap;
@@ -361,7 +401,8 @@ h1 {
 
 .photo-projects {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  display: block;
 }
 
 .list-item-projects {

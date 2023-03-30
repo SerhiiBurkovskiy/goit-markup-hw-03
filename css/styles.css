@@ -147,10 +147,10 @@ h1 {
 
 .hero {
   background: #2f303a;
-  padding: auto;
+  /* padding: auto; */
   margin: auto;
   text-align: center;
-  width: 1600px;
+  max-width: 1600px;
   padding-bottom: 200px;
   padding-top: 200px;
 }
